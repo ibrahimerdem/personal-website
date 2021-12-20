@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Marvel');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  position: static;
+  height: 100%;
+  font-family: Oswald, sans-serif;
+}
+
+.navbar {
+ background: #000000; 
+}
+
+.navbar .container-fluid {
+  width: 85%;
+  margin: 0 auto;
+  background: #000000;
+}
+
+.panel, .panel-default {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.home, .education, .portfolio, .contact, .footer {
+  margin: 0 auto;
+  padding-top: 50px;
+  background: #fafafa;
+  position: static;
+  height: 100%;
+}
+
+.home {
+  background: #000000;
+}
+
+.home .photo {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn.glitch.com/aa1f58fa-6cac-4f01-9f72-fdf6fa60b0a2%2Flastscreen.jpg?v=1601022186669");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  color: #f2f2f2;
+  opacity: 0.7;
+  font-family: 'Open Sans Condensed';
+  display:none;
+}
+
+.home .photo .instruction {
+  width: 40%;
+  height: auto;
+  position: absolute;
+  bottom: 35%;
+  right: 3%;
+  opacity: 0.8;
+  display: none;
+}
+
+.home .photo .headline {
+  width: 0%;
+  height: 1%;
+  position: absolute;
+  bottom: 35%;
+  right: 3%;
+  border-bottom: 1px solid #ff8000;
+  border-bottom-radius: 0.5px;
+  opacity: 0.8;
+}
+
+.home .photo .mainmenu {
+  width: 40%;
+  height: 25%;
+  position: absolute;
+  bottom: 10%;
+  right: 3%;
+  opacity: 0.7;
+  display: none;
+}
+
+.home .photo .mainmenu a {
+  float: right;
+  color: #f2f2f2;
+  margin: 2%;
+  width: 25%;
+}
+
+.home .photo .mainmenu a div {
+  width: 100%;
+}
+
+.home .photo .mainmenu a div img {
+
+}

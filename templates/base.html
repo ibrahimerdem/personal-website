@@ -2,19 +2,18 @@
 <html lang="en">
 <head>
   {% load static %}
-  <title>'Main'</title>
+  <title>Home</title>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1'/>
   <meta name='description' content='personal webpage or portfolio'/>
   <link rel='icon' href="https://cdn.glitch.com/aa1f58fa-6cac-4f01-9f72-fdf6fa60b0a2%2Fic_launcher.png?1534455506846" type='image/x-png'/>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' />
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' />
-  <link rel='stylesheet' href="{% static 'styles/style.css' %}"/>
-  <link rel='stylesheet' media='screen and (max-width: 600px)' href='mobile.css'/>
+  <link rel='stylesheet' href='{% static "styles/main_style.css" %}'/>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
-  <script src="{% static '/controllers/commonController.js'%}"></script>
-  <script src="{% static '/controllers/commonFunctions.js'%}"></script>
+  <script src='{% static "controllers/commonFunctions.js" %}'></script>
+  <script src='{% static "controllers/commonController.js" %}'></script>
 </head>
 <body data-spy='scroll' data-target='.navbar' data-offset='50'>
 <nav class='navbar navbar-inverse navbar-fixed-top'>
