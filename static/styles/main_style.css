@@ -25,10 +25,87 @@ html, body {
     margin-bottom: 0;
 }
 
-.home, .info, .education, .portfolio, .contact, .footer {
+.home, .info, .education, .portfolio, .skills, .experience {
     margin: 0 auto;
+    padding: 0;
+    height: 100%;
     padding-top: 50px;
-    background: #3B707D ;
+    position: static;
 }
 
+.home {
+    background: red;
+    border: 1px solid black;
+}
 
+.home .text-row {
+    margin: 0;
+    width: 100%;
+    height: 70%;
+    border: 1px solid black;
+}
+
+.home .line-row {
+    margin: 0;
+    width: 100%;
+    height: 0.05%;
+    border: 1px solid black;
+}
+
+.home .icon-row {
+    margin: 0;
+    width: 100%;
+    height: 29.95%;
+    border: 1px solid black;
+}
+
+.info {
+    background: green;
+    border: 1px solid black;
+}
+
+.info .main-row {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.info .main-row .name-col {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.info .main-row .fake-col {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.info .main-row .address-col {
+    height: 100%;
+    border: 1px solid black;
+}
+
+.education {
+    background: grey;
+    border: 1px solid black;
+}
+
+.education .main-row {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.portfolio {
+    background: blue;
+    border: 1px solid black;
+}
+
+.portfolio .main-row {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    border: 1px solid black;
+}
